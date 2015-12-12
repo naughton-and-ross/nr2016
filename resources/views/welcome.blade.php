@@ -38,7 +38,11 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div>
+                @if(Auth::check())
+                <div class="title">Hello, {{Auth::user()->username}}</div>
+                @else
+                <div class="title">NR 2016</div>
+                @endif
             </div>
         </div>
     </body>
