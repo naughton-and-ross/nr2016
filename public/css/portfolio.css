@@ -1,0 +1,68 @@
+div.search{
+	width: 100%;
+	overflow: auto;
+	color:#949494;
+	margin-bottom: 20px;
+}
+
+div.search h4{
+	padding: 1% 2%;
+}
+
+div.search i{
+	font-family:'proxima-nova',sans-serif;
+	font-weight: 300;	
+}
+
+.portfolio article{
+	margin-bottom: 20px;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.portfolio article:nth-child(odd){
+	margin-right: 20px;
+}
+
+
+img.full{
+	width:100%;
+	margin-bottom: 20px;
+}
+
+.first-content{
+	padding-top: 80px;
+}
+
+.project-info{
+	margin-bottom: 20px;
+}
+
+.project-info p{
+	 -moz-column-count: 2;
+   -moz-column-gap: 10px;
+   -webkit-column-count: 2;
+   -webkit-column-gap : 10px;
+}
+
+.title{
+	text-align: center;
+	padding: 2%;
+}
+
+.item img{
+	width: 100%;
+}
+
+article span.invert{
+	color: #000000;
+}
+@media (max-width: 600px) {
+	.project-info p{
+	 -moz-column-count: 1;
+   -moz-column-gap: 0;
+   -webkit-column-count: 1;
+   -webkit-column-gap : 0;
+	}
+}

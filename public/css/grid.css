@@ -1,0 +1,135 @@
+.grid section{
+	margin-bottom: 20px;
+	overflow: auto;
+}
+
+.grid article{
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+	color: #ffffff;
+}
+
+.grid article span{
+	bottom: 0;
+	position: absolute;
+	padding: 5%;
+}
+
+.grid article span.invert{
+	color: #000000;
+}
+
+.full-fit{
+	width: 100%;
+	max-height: 80%;
+	margin: 0 auto;
+	
+}
+
+.hero{
+	color: #ffffff;
+	text-align: left;
+	padding: 5% 10% 5% 5%;
+	width: 100%;
+	margin-top: 80px;	
+}
+
+.half{
+	width: calc(50% - 10px);
+	float: left;
+	min-height: 200px;
+}
+
+.half:first-of-type{
+	margin-right: 20px;
+}
+/* vertical two col horizontal 1 third */
+.vert-two-one{
+	width: calc(33.333% - 10px);
+	min-height: 420px;
+	float: left;
+	margin-right: 20px;
+}
+
+.vert-two-one-wrap{
+	width: calc(66.666% - 10px);
+	float: left;
+}
+
+.six{
+	width: calc(33.333% - 10px);
+	min-height: 200px;
+	float: left;
+}
+
+.two-six{
+	width: calc(66.666% - 10px);
+	float: left;
+	min-height: 200px;
+}
+
+section.thirds article:first-of-type{
+	margin-right: 20px;
+}
+
+.five{
+	width: calc(20% - 16px);
+	float: left;
+	margin-right: 20px;
+	min-height: 100px;
+}
+
+.five:last-of-type{
+	margin-right: 0px;
+}
+
+
+/* grid styling */ 
+
+.rubix{
+	background-image: url('../img/rubix-home.png');
+}
+
+.pwps{
+	background-image: url('../img/pwps.png');
+}
+
+.moto{
+	background-image: url('http://www.n-r.co/file/img/mm-mock.jpg');
+}
+
+.abl{
+	background-image: url('http://www.n-r.co/file/img/abl-3.jpg');
+}
+
+.stripe{
+	background-image: url('../img/stripe.svg');	
+}
+
+.dot{
+	background-image: url('../img/dot-2.svg');	
+}
+
+/* responsive */
+
+@media (max-width: 600px) {
+	.five{
+		width: 100%;
+		margin: 0 0 20px 0;
+	}
+	.vert-two-one,.vert-two-one-wrap{
+		width: 100%;
+	}
+	.vert-two-one{
+		margin-bottom: 20px;
+	}
+	.half{
+		width: 100%;
+	}
+	.half:first-of-type{
+		margin-bottom: 20px;
+	}
+}
+
+

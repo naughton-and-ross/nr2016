@@ -1,0 +1,105 @@
+.profile{
+	padding: 2%;
+	min-height: 400px;
+	color: #ffffff;
+	background-color: gray;
+	position: relative;
+	background-position: center center;
+	background-size: cover;
+}
+
+.profile span{
+	bottom: 0;
+	position: absolute;
+	padding: 2%;
+}
+
+.willng{
+	background-image: url('http://www.n-r.co/file/img/wng-colour.jpg');
+}
+
+.tomr{
+	background-image: url('https://igcdn-photos-a-a.akamaihd.net/hphotos-ak-xfp1/t51.2885-15/s750x750/sh0.08/e35/11910013_398774170315704_259116683_n.jpg');
+}
+
+.info{
+	padding: 2%;
+}
+
+.social{
+	padding: 2%;
+}
+
+.social i{
+	margin: 2%;
+	float: left;
+}
+
+/* skill bar */
+
+.bars-left .skillbar-title{
+	left: auto;
+	right: 0;
+}
+
+.bars-left .skillbar,.bars-left .skillbar-bar{
+	float: right;
+}
+.bars-left .skillbar-title span{
+	text-align: right;
+}
+
+.bars,.bars-left{
+	overflow: auto;
+	padding: 0 2%;
+}
+.skillbar {
+	position:relative;
+	display:block;
+	width:100%;
+	height:20px;
+	-webkit-transition:0.1s linear;
+	-moz-transition:0.1s linear;
+	-ms-transition:0.1s linear;
+	-o-transition:0.1s linear;
+	transition:0.1s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+	min-width: 80px;
+	font-weight:bold;
+	font-size:10px;
+	color:#ffffff;
+	background:rgba(0,  0,  0, 0.01);
+
+}
+
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.03);
+	padding:0 5px;
+	height:20px;
+	line-height:21px;
+
+}
+
+.skillbar-bar {
+	height:20px;
+	width:0px;
+}
+
+.skill-title{
+	padding: 0 2%;
+}
+
+.skill-title h5{
+	padding: 2% 0;
+}

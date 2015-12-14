@@ -1,0 +1,68 @@
+
+
+
+/* services */ 
+
+.services section{
+	text-align: center;
+}
+
+.services article{
+	display: inline-block;
+	min-width: 100px;
+}
+
+.serv article div{
+	overflow: auto;	
+}
+
+.serv article div span{
+	position: relative;
+	bottom: auto;
+	padding: 0;
+}
+
+.services article div:first-of-type{
+	padding: 0%;
+}
+
+.services article div img{
+	width: 80%;
+	max-width: 120px;
+}
+
+.service-icon img{
+	width: 60%;
+	margin: 0 auto;
+	display: block;
+	margin-top: 14%;
+}
+
+.serv article a{
+	color: #ffffff;
+}
+
+.serv article h4{
+	font-weight: 300;
+}
+
+@media (max-width: 600px) {
+	.serv article div{
+		width: 50%;
+		float: left;
+		padding: 8%;
+		}
+	.service-icon img{
+		margin-top: 0;
+		width: 100%;
+	}
+	.serv article div:nth-child(even){
+		padding-top: 20%;
+		text-align: left;
+	}
+	.grid section.serv{
+		margin-bottom: 0;
+	}
+}
+
+

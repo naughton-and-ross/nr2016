@@ -1,0 +1,8 @@
+.form-wrap{
+	background-color: 	background-color: rgba(250, 250, 250, 0.78);
+	padding: 2%;
+}
+
+#map{
+	min-height: 500px !important;
+}
