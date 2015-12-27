@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
 // Authentication routes...
@@ -23,3 +23,15 @@ Route::get('auth/logout', 'Auth\AuthController@getLogout');
 // Registration routes...
 Route::get('auth/register', 'Auth\AuthController@getRegister');
 Route::post('auth/register', 'Auth\AuthController@postRegister');
+
+
+// Admin routes...
+Route::group(['middleware' => 'auth', 'prefix' => 'admin'], function() {
+    Route::get('/', 'AdminController@render');
+    Route::resource('projects', 'ProjectsController');
+});
+
+// API routes...
+Route::group(['middleware' => 'auth', 'prefix' => 'api'], function() {
+    Route::get('/projects', 'ProjectsController@index');
+});
