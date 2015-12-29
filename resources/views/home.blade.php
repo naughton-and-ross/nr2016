@@ -7,7 +7,7 @@
 		<script>try{Typekit.load({ async: true });}catch(e){}</script>
 			<title>V3</title>
 			<link rel="stylesheet" href="{{asset('css/global.css')}}"/>
-			<link rel="stylesheet" href="file/outdatedbrowser/outdatedbrowser.min.css"/>
+			<link rel="stylesheet" href="{{asset('outdatedbrowser/outdatedbrowser.min.css')}}"/>
 			<script async src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.j"></script>
 			<!--[if IE]>
 				<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
