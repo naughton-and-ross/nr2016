@@ -44,7 +44,7 @@
 			  $(this).toggleClass('open');
 			});
   </script>
-  <script src="http://tomross.me/v3/file/outdatedbrowser/outdatedbrowser.min.js"></script>
+  <script src="{{asset('outdatedbrowser/outdatedbrowser.min.js')}}"></script>
   <script>
   $( document ).ready(function() {
     outdatedBrowser({
