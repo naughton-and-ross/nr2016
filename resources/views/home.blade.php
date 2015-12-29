@@ -8,7 +8,7 @@
 			<title>V3</title>
 			<link rel="stylesheet" href="{{asset('css/global.css')}}"/>
 			<link rel="stylesheet" href="{{asset('outdatedbrowser/outdatedbrowser.min.css')}}"/>
-			<script async src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.j"></script>
+			<script async src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 			<!--[if IE]>
 				<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 			<![endif]-->
