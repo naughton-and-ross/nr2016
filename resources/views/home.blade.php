@@ -267,11 +267,11 @@
 		</div>-->
 				@include('partials.footer')
 			<script>
-				jQuery(document).ready(function(){
-        jQuery('#servmore').on('click', function(event) {
-             jQuery('#serv').fadeToggle('show');
-        });
-    })
+				$(document).ready(function(){
+			        $('#servmore').on('click', function(event) {
+			             $('#serv').fadeToggle('show');
+			        });
+			    })
 
 			</script>
 
