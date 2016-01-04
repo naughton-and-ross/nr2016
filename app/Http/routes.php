@@ -11,8 +11,19 @@
 |
 */
 
+// Application routes...
 Route::get('/', function () {
     return view('home');
+});
+
+Route::get('about', function () {
+    return view('about');
+});
+
+Route::get('portfolio', 'FrontendController@renderPortfolio');
+
+Route::get('contact', function () {
+    return view('contact');
 });
 
 // Authentication routes...
