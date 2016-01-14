@@ -15,13 +15,11 @@
 Route::get('/', function () {
     return view('home');
 });
-
 Route::get('about', function () {
     return view('about');
 });
-
 Route::get('portfolio', 'FrontendController@renderPortfolio');
-
+Route::get('portfolio/{project_slug}', 'ProjectsController@show');
 Route::get('contact', function () {
     return view('contact');
 });
