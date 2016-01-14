@@ -53,6 +53,7 @@ class ProjectsController extends Controller
         $project->project_desc = $request->project_desc;
         $project->project_catagory = $request->project_catagory;
         $project->project_info = $request->project_info;
+        $project->project_slug = rtrim(preg_replace('/[^a-z0-9]+/i', '-', strtolower(strip_tags($request->project_name))), "-");
         if ($request->light_img == "on") {
             $project->light_img = true;
         }
@@ -72,6 +73,7 @@ class ProjectsController extends Controller
                 $ind_file->move('upload', $fileName);
             }
         }
+
         $project->photo_count = $file_count;
         $project->save();
 
