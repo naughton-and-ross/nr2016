@@ -77,6 +77,7 @@ class ProjectsController extends Controller
         $project->photo_count = $file_count;
         $project->save();
 
+        return redirect('/portfolio/'.$project->project_slug);
     }
 
     /**
