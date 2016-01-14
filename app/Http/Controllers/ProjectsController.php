@@ -88,7 +88,9 @@ class ProjectsController extends Controller
      */
     public function show($id)
     {
-        //
+        $project = Project::where('project_slug', $id)->first();
+
+        return $project;
     }
 
     /**
