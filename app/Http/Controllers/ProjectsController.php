@@ -42,13 +42,39 @@ class ProjectsController extends Controller
      */
     public function store(Request $request)
     {
-        $input = Input::all();
         $project = new Project;
-        $project->project_name = $input->project_name;
-        $project->project_desc = $input->project_desc;
-        $project->project_catagory = $input->project_catagory;
-        
-        return $input;
+        if (Project::first()) {
+            $project_id = Project::first()->id;
+            ++$project_id;
+        } else {
+            $project_id = 1;
+        }
+        $project->project_name = $request->project_name;
+        $project->project_desc = $request->project_desc;
+        $project->project_catagory = $request->project_catagory;
+        $project->project_info = $request->project_info;
+        if ($request->light_img == "on") {
+            $project->light_img = true;
+        }
+        if ($request->hasFile('cover_img')) {
+            $cover_img = $request->file('cover_img');
+            $file_ext = $cover_img->guessExtension();
+            $fileName = $project_id . "-cover." . $file_ext;
+            $cover_img->move('upload', $fileName);
+        }
+        if ($request->hasFile('all_img')) {
+            $files = $request->file('all_img');
+            $file_count = 0;
+            foreach ($files as $ind_file) {
+                $file_count++;
+                $file_ext = $ind_file->guessExtension();
+                $fileName = $project_id . "-" . $file_count . "." . $file_ext;
+                $ind_file->move('upload', $fileName);
+            }
+        }
+        $project->photo_count = $file_count;
+        $project->save();
+
     }
 
     /**
