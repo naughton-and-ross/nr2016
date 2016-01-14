@@ -27,43 +27,14 @@
 				</div>
 			</section>
 			<section>
-				<article class="half pwps orange">
+				@foreach ($projects as $project)
+				<article class="half" style="background-image:url({{url('upload')}}/{{$project->id}}-cover.jpeg)">
 					<span>
-						<h5>Print Media</h5>
-						<p>Preston West Primary School</p>
+						<h5>{{$project->project_catagory}}</h5>
+						<p>{{$project->project_name}}</p>
 					</span>
 				</article>
-				<article class="half rubix blue">
-					<span>
-						<h5>Identity</h5>
-						<p>Cafe Rubix</p>
-					</span>
-				</article>
-				<article class="half yellow">
-					<span>
-						<h5>Concepts</h5>
-						<p>A Big Life</p>
-					</span>
-				</article>
-				<article class="half green">
-					<span>
-						<h5>Web Design & Development</h5>
-						<p>Convenient Crops</p>
-					</span>
-				</article>
-				<article class="half blue">
-					<span>
-						<h5>Logo</h5>
-						<p>Motorcycle Magic</p>
-					</span>
-				</article>
-				<article class="half red">
-					<span>
-						<h5>Print Media</h5>
-						<p>Bus Shorts of Hollywood</p>
-					</span>
-				</article>
-			</section>
+				@endforeach
 
 		</div>
 				@include('partials.footer')
