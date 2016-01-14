@@ -44,7 +44,8 @@
 			</div>
 			<div class="main">
 				<h4>Add a project:</h4>
-                {!! Form::open(['url' => '/admin/projects']) !!}
+				<h5>All images must be jpg</h5>
+                {!! Form::open(['url' => '/admin/projects', 'files' => true]) !!}
 					<section>
 						<p>Title:</p>
 							<input type="text" name="project_name"/>
@@ -58,14 +59,13 @@
 								<option>Graphic Design</option>
 								<option>Brand Development</option>
 							</select>
-						<input type="file" name="other_file" multiple/>
 						<p>Info:</p>
 						<textarea name="project_info"></textarea>
-						<p>Cover Image:</p>
+						<p>Thumb/Cover Image:</p>
 						<label><input type="checkbox" name="light_img"/>Light Image (inverse text colour)</label>
 						<input type="file" name="cover_img"/>
-						<p>All Pictures:</p>
-						<input type="file" name="all_img" multiple/>
+						<p>Slider Pictures:</p>
+						<input type="file" name="all_img[]" multiple/>
 					</section>
 					<section>
 						<button>Submit</button>
