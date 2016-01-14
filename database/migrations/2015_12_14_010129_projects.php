@@ -18,6 +18,7 @@ class Projects extends Migration
             $table->string('project_desc');
             $table->string('project_catagory');
             $table->text('project_info');
+            $table->boolean('light_img');
             $table->integer('photo_count')->default(0);
             $table->timestamps();
         });
