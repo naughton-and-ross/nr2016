@@ -44,8 +44,8 @@ class ProjectsController extends Controller
     {
         $project = new Project;
         if (Project::first()) {
-            $project_id = Project::first()->id;
-            ++$project_id;
+            $project_id = Project::orderBy('id', 'desc')->first()->id;
+            $project_id++;
         } else {
             $project_id = 1;
         }
@@ -90,7 +90,9 @@ class ProjectsController extends Controller
     {
         $project = Project::where('project_slug', $id)->first();
 
-        return $project;
+        return view('project', [
+            'project' => $project,
+        ]);
     }
 
     /**
