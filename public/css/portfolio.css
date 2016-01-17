@@ -11,7 +11,7 @@ div.search h4{
 
 div.search i{
 	font-family:'proxima-nova',sans-serif;
-	font-weight: 300;	
+	font-weight: 300;
 }
 
 .portfolio article{
@@ -44,6 +44,14 @@ img.full{
    -moz-column-gap: 10px;
    -webkit-column-count: 2;
    -webkit-column-gap : 10px;
+}
+
+.project-info p.project_desc {
+	font-size: 150%;
+	-webkit-column-count:1;
+	-moz-column-count: 1;
+	width: 75%;
+	margin-bottom: 1em;
 }
 
 .title{
