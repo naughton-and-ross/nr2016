@@ -1,35 +1,31 @@
 <div id="outdated"></div>
 
 <footer>
-			<div class="content">
-				<article>
-					<i class="fa fa-facebook btn btn-social"></i>
-				  	<i class="fa fa-envelope-o btn btn-social"></i>
-				</article>
-				<article>
-					<h4>William Naughton-Gravette</h4>
-					<h6>Partner</h6>
-					<a href="mailto:william@n-r.co"><p>william@n-r.co</p></a>
-					<p>0430 113 345</p>
-						<p>
-							<i class="fa fa-twitter"></i>
-							<i class="fa fa-instagram"></i>
-							<i class="fa fa-globe"></i>
-						</p>
-
-				</article>
-				<article>
-					<h4>Tom Ross</h4>
-					<h6>Partner</h6>
-					<p>tom@n-r.co</p>
-					<a href="tel:+6403515789"><p>0403 515 789</p></a>
-					<p>
-						<i class="fa fa-twitter"></i>
-						<i class="fa fa-instagram"></i>
-						<i class="fa fa-globe"></i>
-					</p>
-				</article>
-			</div>
+	<div class="content">
+		<article>
+			<h4>
+				<div class="stroke"></div>
+				Studio
+				<br>
+				Naughton & Ross 2016
+			</h4>
+		</article>
+		<article>
+			<h4>
+				<div class="stroke"></div>
+				Email
+				<br>
+				<a href="mailto:hellow@n-r.co">hello@n-r.co</a>
+			</h4>
+		</article>
+		<article class="phone">
+			<h4>
+				<div class="stroke"></div>
+				Phone
+				<br>
+				<a href="">0403 515 789</a> or <a href="">0430 113 345</a>
+		</article>
+	</div>
 </footer>
 
 	<script>
