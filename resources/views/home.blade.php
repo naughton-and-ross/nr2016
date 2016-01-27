@@ -143,7 +143,7 @@
 				</article>
 			</section>
 			<section class="serv" id="serv">
-					<article class="five comp">
+					<article class="five">
 						<a href="portfolio/search.php">
 							<div class="inner">
 								<img src="{{asset('img/icon-b/webd2.svg')}}"/>
@@ -151,7 +151,7 @@
 							</div>
 						</a>
 					</article>
-					<article class="five comp">
+					<article class="five">
 						<a href="portfolio/search.php">
 							<div class="inner">
 								<img src="{{asset('img/icon-b/printn.svg')}}"/>
@@ -159,7 +159,7 @@
 							</div>
 						</a>
 					</article>
-					<article class="five comp">
+					<article class="five">
 						<a href="portfolio/search.php">
 							<div class="inner">
 								<img src="{{asset('img/icon-b/photog.svg')}}"/>
@@ -167,7 +167,7 @@
 							</div>
 						</a>
 					</article>
-					<article class="five comp">
+					<article class="five">
 						<a href="portfolio/search.php">
 							<div class="inner">
 								<img src="{{asset('img/icon-b/gd.svg')}}"/>
@@ -175,7 +175,7 @@
 							</div>
 						</a>
 					</article>
-					<article class="five comp">
+					<article class="five">
 						<a href="portfolio/search.php">
 							<div class="inner">
 								<img src="{{asset('img/icon-b/brand.svg')}}"/>
