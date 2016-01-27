@@ -16,11 +16,11 @@
 			<div class="content">
 				<div class="menu">
 					<ul>
-						<a href="/"><li>Home</li></a>
-						<a href="about"><li>About Us</li></a>
-						<a href="portfolio"><li>Portfolio</li></a>
-						<a href="contact"><li>Contact</li></a>
-						<a href="login"><li>Login</li></a>
+						<a href="{{url('/')}}"><li>Home</li></a>
+						<a href="{{url('about')}}"><li>About Us</li></a>
+						<a href="{{url('portfolio')}}"><li>Portfolio</li></a>
+						<a href="{{url('contact')}}"><li>Contact</li></a>
+						<a href="{{url('login')}}"><li>Login</li></a>
 					</ul>
 				</div>
 			</div>
