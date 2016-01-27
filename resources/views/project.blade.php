@@ -5,7 +5,7 @@
 		<head>
 		<script src="https://use.typekit.net/fob6vhu.js"></script>
 		<script>try{Typekit.load({ async: true });}catch(e){}</script>
-			<title>V3</title>
+			<title>{{$project->project_name}}</title>
             <link rel="stylesheet" href="{{asset('/css/global.css')}}"/>
 			<link rel="stylesheet" href="{{asset('/css/portfolio.css')}}"/>
             <link rel="stylesheet" href="{{asset('/css/owl.carousel.css')}}"/>
@@ -19,7 +19,6 @@
 
 	</head>
 	<body>
-
 		@include('partials.nav-alt')
 		<div class="content first-content">
 			<div class="title">
