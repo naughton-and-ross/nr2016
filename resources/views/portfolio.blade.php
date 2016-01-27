@@ -28,16 +28,15 @@
 			</section>
 			<section>
 				@foreach ($projects as $project)
-				<a href="{{url('portfolio')}}/{{$project->project_slug}}">
-					<article class="half" style="background-image:url({{url('upload')}}/{{$project->id}}-cover.jpeg)">
-						<span>
-							<h5>{{$project->project_catagory}}</h5>
-							<p>{{$project->project_name}}</p>
-						</span>
-					</article>
-				</a>
+				<article class="half" style="background-image:url({{url('upload')}}/{{$project->id}}-cover.jpeg)">
+					<a class="expand" href="{{url('portfolio')}}/{{$project->project_slug}}">
+					<span>
+						<h5>{{$project->project_catagory}}</h5>
+						<p>{{$project->project_name}}</p>
+					</span>
+					</a>
+				</article>
 				@endforeach
-
 		</div>
 				@include('partials.footer')
 
