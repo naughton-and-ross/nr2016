@@ -63,10 +63,13 @@ h3{font-family:"kepler-std-display",sans-serif;font-size:2.5em;line-height:0.8em
 h5{font-size:0.8em;font-weight:bold;letter-spacing:0.1em;text-transform:uppercase;}
 .t-center{text-align:center;}
 footer{width:100%;margin-top:20px;}
-footer article{width:33.33%;float:left;padding:2%;}
-footer article:first-of-type{padding:2% 2% 2% 0;}
-footer a{color:#000000;}
-footer h4{font-family:"kepler-std-display",sans-serif;}
+footer article{width:20%;float:left;padding:2%;}
+footer article.phone{width: 30%;}
+footer article:first-of-type{width: 50%;}
+footer article h4{font-weight: 400;}
+footer a{color:#000000;text-decoration: underline;}
+footer a:hover{color:#33449c;}
+footer div.stroke{background-color: #000000;height: 2px;width: 25px;margin-bottom: 26px;}/* footer h4{font-family:"kepler-std-display",sans-serif;}*/
 footer .btn-social{background-color:#33449c;border:none;border-radius:45px;width:45px;height:45px;padding-top:5%;text-align:center;color:#ffffff;display:inline-block;}
 form{width:100%;}
 form p{font-size:12px;color:#4d4d4d;font-weight:900;text-transform:uppercase;}
