@@ -25,5 +25,6 @@
 				<p>Do you want to return <a href="/" class="under">home</a>?</p>
 			</div>
 		</div>
+		@include('partials.footer')
 	</body>
 </html>
