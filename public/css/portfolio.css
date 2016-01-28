@@ -63,6 +63,10 @@ img.full{
 	width: 100%;
 }
 
+a.projecta span h5,a.projecta span p{
+	color: #ffffff;
+}
+
 article span.invert{
 	color: #000000;
 }
