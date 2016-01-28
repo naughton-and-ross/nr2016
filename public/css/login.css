@@ -39,6 +39,7 @@
 	text-align: center;
 	color: #000000;
 	float: left;
+	cursor: pointer;
 }
 
 .login article:hover{
