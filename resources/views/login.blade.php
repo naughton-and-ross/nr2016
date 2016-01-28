@@ -1,5 +1,3 @@
-<?php ?>
-
 <!DOCTYPE html>
 <html lang="en">
 		<head>
@@ -58,7 +56,7 @@
 							<input type="text"/>
 							<button>Submit</button>
 						</form>
-	
+
 					</section>
 					<section id="adminform" class="adminform">
 						<form>
@@ -68,27 +66,27 @@
 								<input type="password"/>
 							<button>Submit</button>
 						</form>
-	
+
 					</section>
 				</div>
 			</div>
 			<script>
 				jQuery(document).ready(function(){
-			        jQuery('#moodboard').on('click', function(event) {        
+			        jQuery('#moodboard').on('click', function(event) {
 			             jQuery('.capt,.opt-wrap,.nrlogo').fadeToggle(750);
-			             jQuery('#moodboardform,.mblogo,.back').delay(760).fadeToggle('show'); 
+			             jQuery('#moodboardform,.mblogo,.back').delay(760).fadeToggle('show');
 			        });
-			        jQuery('#clientapp').on('click', function(event) {        
+			        jQuery('#clientapp').on('click', function(event) {
 			             jQuery('.capt,.opt-wrap,.nrlogo').fadeToggle('show');
 			             jQuery('#clientappform,.calogo,.back').delay(760).fadeToggle('show');
 			        });
-			        jQuery('#admin').on('click', function(event) {        
+			        jQuery('#admin').on('click', function(event) {
 			             jQuery('.capt,.opt-wrap').fadeToggle('show');
 			             jQuery('#adminform,.back').delay(760).fadeToggle('show');
 			        });
-			        jQuery('.back').on('click', function(event) {        
+			        jQuery('.back').on('click', function(event) {
 			             jQuery('#moodboardform,#clientappform,.calogo,#adminform,.mblogo,.back').fadeOut(750);
-			             jQuery('.capt,.opt-wrap,.nrlogo').delay(760).fadeIn(); 
+			             jQuery('.capt,.opt-wrap,.nrlogo').delay(760).fadeIn();
 			        });
 			    })
 			</script>
