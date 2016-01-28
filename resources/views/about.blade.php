@@ -125,11 +125,11 @@
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 						</div>
 						<div class="social">
-							<i class="fa fa-instagram"></i>
-							<i class="fa fa-tumblr"></i>
-							<i class="fa fa-globe"></i>
-							<i class="fa fa-envelope-o"></i>
-							<i class="fa fa-phone"></i>
+							<a href="http://instagram.com/fervu/"><i class="fa fa-instagram"></i></a>
+							<a href="http://fervu.tumblr.com"><i class="fa fa-tumblr"></i></a>
+							<a href="htttp://tomross.me" target="_blank"><i class="fa fa-globe"></i></a>
+							<a href="mailto:tom@n-r.co"><i class="fa fa-envelope-o"></i></a>
+							<a href="tel:+61403515789"><i class="fa fa-phone"></i></a>
 						</div>
 				</div>
 			</section>
