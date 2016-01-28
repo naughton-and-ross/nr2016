@@ -15,7 +15,7 @@
 				<div class="stroke"></div>
 				Email
 				<br>
-				<a href="mailto:hellow@n-r.co">hello@n-r.co</a>
+				<a href="mailto:hello@n-r.co">hello@n-r.co</a>
 			</h4>
 		</article>
 		<article class="phone">
@@ -23,7 +23,7 @@
 				<div class="stroke"></div>
 				Phone
 				<br>
-				<a href="">0403 515 789</a> or <a href="">0430 113 345</a>
+				<a href="tel:+61403515789">0403 515 789</a> or <a href="tel:+61430113345">0430 113 345</a>
 		</article>
 	</div>
 </footer>
