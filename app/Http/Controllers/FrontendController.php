@@ -18,4 +18,9 @@ class FrontendController extends Controller
             'projects' => $projects
         ]);
     }
+
+    public function renderLoginWrap()
+    {
+        return view('login');
+    }
 }
