@@ -22,7 +22,7 @@
 			<div class="error">
 				<h1>Whoops!</h1>
 				<p>This page doesn't seem to exist.</p><br>
-				<p>Do you want to return <a href="/v3/index.php" class="under">home</a>?</p>
+				<p>Do you want to return <a href="/" class="under">home</a>?</p>
 			</div>
 		</div>
 	</body>
