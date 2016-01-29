@@ -5,7 +5,7 @@
 		<head>
 		<script src="https://use.typekit.net/fob6vhu.js"></script>
 		<script>try{Typekit.load({ async: true });}catch(e){}</script>
-			<title>{{$project->project_name}}</title>
+			<title>{{$project->project_name}} - Naughton & Ross</title>
             <link rel="stylesheet" href="{{asset('/css/global.css')}}"/>
 			<link rel="stylesheet" href="{{asset('/css/portfolio.css')}}"/>
             <link rel="stylesheet" href="{{asset('/css/owl.carousel.css')}}"/>
