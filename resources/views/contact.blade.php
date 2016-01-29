@@ -5,7 +5,7 @@
 		<head>
 		<script src="https://use.typekit.net/fob6vhu.js"></script>
 		<script>try{Typekit.load({ async: true });}catch(e){}</script>
-			<title>V3</title>
+			<title>Naughton & Ross : Contact</title>
             <link rel="stylesheet" href="{{asset('/css/global.css')}}"/>
 			<link rel="stylesheet" href="{{asset('/css/contact.css')}}"/>
 			<link rel="stylesheet" href="{{asset('/css/grid.css')}}"/>

@@ -5,7 +5,7 @@
 	<head>
 		<script src="https://use.typekit.net/fob6vhu.js"></script>
 		<script>try{Typekit.load({ async: true });}catch(e){}</script>
-			<title>V3</title>
+			<title>Naughton & Ross</title>
 			<link rel="stylesheet" href="{{asset('css/global.css')}}"/>
 			<link rel="stylesheet" href="{{asset('outdatedbrowser/outdatedbrowser.min.css')}}"/>
 			<script async src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
