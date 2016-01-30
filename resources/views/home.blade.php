@@ -56,7 +56,7 @@
 				.half a span h5,.half a span p{
 					color: #ffffff;
 				}
-				.half a span.invert h5,.half a span.invert p{
+				article a span.invert h5,article a span.invert p{
 					color: #000000;
 				}
 
