@@ -141,10 +141,12 @@
 					</a>
 				</article>
 				<article class="half pwps">
-					<span>
-						<h5>Print Media</h5>
-						<p>Preston West Primary School</p>
-					</span>
+					<a class="expand" href="portfolio/preston-west-primary/">
+						<span>
+							<h5>Print Media</h5>
+							<p>Preston West Primary School</p>
+						</span>
+					</a>
 				</article>
 			</section>
 			<section class="serv-opt">
@@ -198,15 +200,17 @@
 			<section>
 				<article class="vert-two-one grey" style="background-image:url('{{asset('img/phonemockcrops.png')}}')">
 					<!--<img class="full-fit" src="{{asset('img/phonemockcrops.png')}}"/>-->
-					<span>
-						<h5>Identity</h5>
-						<p>Convenient Crops</p>
-					</span>
+					<a class="expand" href="portfolio/cc/">
+						<span>
+							<h5>Identity</h5>
+							<p>Convenient Crops</p>
+						</span>
+					</a>
 				</article>
 					<div class="vert-two-one-wrap">
 						<section class="thirds">
 							<article class="six n-pink">
-								<a href="contact/" class="expand white">
+								<a href="contact/" class="expand">
 									<span>
 										<h5>Get Started</h5>
 										<p>Contact us</p>
@@ -214,21 +218,25 @@
 								</a>
 							</article>
 							<article class="two-six moto">
-								<span class="invert">
-									<h5>Logo Design</h5>
-									<p>Motorcycle Magic</p>
-								</span>
+								<a class="expand" href="portfolio/moto/">
+									<span class="invert">
+										<h5>Logo Design</h5>
+										<p>Motorcycle Magic</p>
+									</span>
+								</a>
 							</article>
 						</section>
 						<section class="thirds">
 							<article class="two-six abl">
-								<span>
-									<h5>Concepts</h5>
-									<p>A Big Life</p>
-								</span>
+								<a class="expand" href="portfolio/a-big-life/">
+									<span>
+										<h5>Concepts</h5>
+										<p>A Big Life</p>
+									</span>
+								</a>
 							</article>
 							<article class="six n-green">
-								<a href="portfolio/" class="expand white">
+								<a href="portfolio/" class="expand">
 									<span>
 										<h5>View all our work</h5>
 										<p>Portfolio</p>
