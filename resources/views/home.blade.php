@@ -189,7 +189,7 @@
 					</article>
 			</section>
 			<section>
-				<article class="vert-two-one grey" style="backround-image:url('{{asset('img/phonemockcrops.png')}}')">
+				<article class="vert-two-one grey" style="background-image:url('{{asset('img/phonemockcrops.png')}}')">
 					<!--<img class="full-fit" src="{{asset('img/phonemockcrops.png')}}"/>-->
 					<span>
 						<h5>Identity</h5>
