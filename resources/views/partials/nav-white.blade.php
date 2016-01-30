@@ -41,6 +41,6 @@
 		</a>
 </nav>
 
-<div class="menu btnmove" id="btnmove">
+<div class="menu btnmove btnmove-white" id="btnmove">
       <div class="icon"></div>
  </div>
