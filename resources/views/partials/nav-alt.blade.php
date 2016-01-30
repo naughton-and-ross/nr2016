@@ -7,7 +7,7 @@
 					</div>-->
 					<p>CLOSE</p>
 				</div>
-					<a href="/v3/">
+					<a href="{{url('/')}}">
 						<div class="logo">
 							<img src="{{asset('img/nr_small_black.svg')}}"/>
 						</div>
