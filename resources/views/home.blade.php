@@ -53,7 +53,7 @@
 				.serv article h4{
 					font-weight: 300;
 				}
-				.half a span h5,.half a span p{
+				article a span h5,article a span p{
 					color: #ffffff;
 				}
 				article a span.invert h5,article a span.invert p{
