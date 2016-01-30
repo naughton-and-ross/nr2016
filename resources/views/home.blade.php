@@ -127,6 +127,10 @@
 			<section>
 				<article class="half rubix expand-wrap">
 					<a class="expand" href="portfolio/rubix/">
+						<span>
+							<h5>Identity</h5>
+							<p>Cafe Rubix</p>
+						</span>
 					</a>
 				</article>
 				<article class="half pwps">
@@ -185,8 +189,12 @@
 					</article>
 			</section>
 			<section>
-				<article class="vert-two-one grey">
-					<img class="full-fit" src="{{asset('img/phonemockcrops.png')}}"/>
+				<article class="vert-two-one grey" style="backround-image:url('{{asset('img/phonemockcrops.png')}}')">
+					<!--<img class="full-fit" src="{{asset('img/phonemockcrops.png')}}"/>-->
+					<span>
+						<h5>Identity</h5>
+						<p>Convenient Crops</p>
+					</span>
 				</article>
 					<div class="vert-two-one-wrap">
 						<section class="thirds">
