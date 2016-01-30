@@ -22,6 +22,7 @@ div.logo{width:40px;height:40px;float:left;}
 div.logo img{height:100%;}
 div.menu-btn-close{width:40px;height:40px;color:#ffffff;float:left;}
 .menu-alt{color:#000000 !important;}
+.menu-alt-white{color:#ffffff !important;}
 .menu ul{margin:0;padding:0;color:#ffffff;}
 .menu ul li{list-style-type:none;color:#000000;font-weight:300;font-size:18px;padding:1% 0 1% 2%;}
 #nav-overlay-inner{position:absolute;}

@@ -32,7 +32,7 @@
 							<i class="fa fa-bars fa-2x"></i<
 								<img src="/v3/file/img/menu_open_black.svg"/>
 					</div> -->
-						<p class="menu-alt">MENU</p>
+						<p class="menu-alt-white">MENU</p>
 				</div>
 		<a href="{{url('/')}}">
 			<div class="logo">
