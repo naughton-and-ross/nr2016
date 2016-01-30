@@ -17,7 +17,7 @@
 
 	</head>
 	<body class="login-bg">
-			@include('partials.nav-alt')
+			@include('partials.nav-white')
 			<div class="login-wrap">
 				<div class="login">
 					<section class="t-center back-wrap">
