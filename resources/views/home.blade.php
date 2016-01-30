@@ -53,6 +53,10 @@
 				.serv article h4{
 					font-weight: 300;
 				}
+				.half a{
+					color: #000000;
+				}
+
 				@media (max-width: 800px) {
 						.serv article .inner h4{
 							font-size: 12px;
