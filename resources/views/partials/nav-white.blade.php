@@ -1,6 +1,6 @@
 <div class="menu-overlay animate fadeIn" id="nav-overlay" class="alt">
 			<nav>
-				<div class="btn-wrap">
+				<div class="btn-wrap btn-wrap-white">
 					<!--
 					<div class="menu-btn-close" id="menu-btn-close">
 						<img src="/v3/file/img/menu_close_black.svg"/>
@@ -9,7 +9,7 @@
 				</div>
 					<a href="{{url('/')}}">
 						<div class="logo">
-							<img src="{{asset('img/nr_small_black.svg')}}"/>
+							<img src="{{asset('img/nr_small_white.svg')}}"/>
 						</div>
 					</a>
 			</nav>
@@ -36,7 +36,7 @@
 				</div>
 		<a href="{{url('/')}}">
 			<div class="logo">
-				<img src="{{asset('img/nr_small_black.svg')}}"/>
+				<img src="{{asset('img/nr_small_white.svg')}}"/>
 			</div>
 		</a>
 </nav>

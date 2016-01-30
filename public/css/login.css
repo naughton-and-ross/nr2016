@@ -1,5 +1,5 @@
 .login-bg{
-	background-image: url('../img/.svg');
+	background-image: url('{{asset('img/login_feather.jpg')}}');
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -116,7 +116,7 @@
 
 #adminform form{
 	padding: 1% 10% 0 10%;
-	
+
 }
 
 .login .mblogo,.login .adminlogo,.login .calogo{
