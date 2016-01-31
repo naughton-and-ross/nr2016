@@ -30,7 +30,7 @@
 				<h4>Projects</h4>
 				<ul>
                     @foreach ($projects as $project)
-					<li><a href="">{{$project->project_name}}</a></li>
+					<li><a href="{{url('portfolio')}}/{{$project->project_slug}}">{{$project->project_name}}</a></li>
                     @endforeach
 				</ul>
 				<!-- DATABASE ENTRIES
