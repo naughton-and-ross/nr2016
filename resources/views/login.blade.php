@@ -16,8 +16,8 @@
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	</head>
-	<body class="login-bg" style="background-image: url({{asset('img/login_feather.jpg')}});">
-			@include('partials.nav-white')
+	<body class="login-bg">
+			@include('partials.nav-alt')
 			<div class="login-wrap">
 				<div class="login">
 					<section class="t-center back-wrap">
