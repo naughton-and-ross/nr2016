@@ -33,6 +33,11 @@
 					<li><a href="{{url('portfolio')}}/{{$project->project_slug}}">{{$project->project_name}}</a></li>
                     @endforeach
 				</ul>
+				<h4>Quick Links</h4>
+					<ul>
+						<li><a href="http://n-rdev.co/clientapp/">Client App</a></li>
+						<li><a href="http://moodboard.n-r.co">Moodboard</a></li>
+					</ul>
 				<!-- DATABASE ENTRIES
 					<ul>
 						<li>
