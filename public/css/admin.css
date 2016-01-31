@@ -4,7 +4,7 @@
 	overflow: auto;
 	background-color: rgba(250, 250, 250, 0.78);
 	padding: 2%;
-	min-height: 500px;
+	min-height: 650px;
 }
 
 .sidebar ul{
@@ -34,7 +34,7 @@
 	padding: 2%;
 	margin-left: 20px;
 	background-color: rgba(250, 250, 250, 0.78);
-	min-height: 500px;
+	min-height: 650px;
 }
 
 
