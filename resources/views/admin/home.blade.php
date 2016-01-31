@@ -78,6 +78,92 @@
 				</form>
 			</div>
 		</div>
+		<div class="content">
+			<div class="feat">
+				<table>
+					<thead>
+						<tr>
+							<th><h4>Featured Projects</h4></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><img src="{{asset('/img/grid/grid-1.svg')}}"/></td>
+							<td>
+								<form>
+									<select>
+										<option>Cafe Rubix</option>
+										<option>Convenient Crops</option>
+										<option>Motorcycle Magic</option>
+										<option>A Big Life</option>
+									</select>
+								</form>
+							</td>
+						</tr>
+						<tr>
+							<td><img src="{{asset('/img/grid/grid-2.svg')}}"/></td>
+							<td>
+								<form>
+									<select>
+										<option>Cafe Rubix</option>
+										<option>Convenient Crops</option>
+										<option>Motorcycle Magic</option>
+										<option>A Big Life</option>
+									</select>
+								</form>
+							</td>
+						</tr>
+						<tr class="portrait">
+							<td><img src="{{asset('/img/grid/grid-3.svg')}}"/></td>
+							<td>
+								<form>
+									<select>
+										<option>Cafe Rubix</option>
+										<option>Convenient Crops</option>
+										<option>Motorcycle Magic</option>
+										<option>A Big Life</option>
+									</select>
+								</form>
+								<form>
+									<h5>Portrait Project Icon</h5>
+									<input type="file"/>
+									<input type="submit"/>
+								</form>
+							</td>
+						</tr>
+						<tr>
+							<td><img src="{{asset('/img/grid/grid-4.svg')}}"/></td>
+							<td>
+								<form>
+									<select>
+										<option>Cafe Rubix</option>
+										<option>Convenient Crops</option>
+										<option>Motorcycle Magic</option>
+										<option>A Big Life</option>
+									</select>
+								</form>
+							</td>
+						</tr>
+						<tr>
+							<td><img src="{{asset('/img/grid/grid-5.svg')}}"/></td>
+							<td>
+								<form>
+									<select>
+										<option>Cafe Rubix</option>
+										<option>Convenient Crops</option>
+										<option>Motorcycle Magic</option>
+										<option>A Big Life</option>
+									</select>
+								</form>
+							</td>
+						</tr>
+
+					</tbody>
+				</table>
+
+			</div>
+		</div>
+
 				@include('partials.footer')
 
 	</body>
