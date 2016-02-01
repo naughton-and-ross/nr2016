@@ -137,8 +137,13 @@
 	position: absolute;
 	padding: 4%;
 	color: #6d6d6d;
-	float: right;
+	right: 0;
 }
+
+.help a{
+	color: #6d6d6d;
+}
+
 
 
 #moodboardform form{
