@@ -22,6 +22,7 @@
 				<div class="login">
 					<section class="t-center back-wrap">
 							<div class="back"><i class="fa fa-angle-left fa-2x"></i></div>
+							<div class="help"><a href=""><i class="fa fa-question fa-2x"></i></a></div>
 						<img class="logo nrlogo" src="{{asset('/img/logo_full.svg')}}"/>
 						<img class="logo mblogo" src="{{asset('/img/mb_logo.svg')}}"/>
 						<img class="logo calogo" src="{{asset('/img/ca_logo.svg')}}"/>

@@ -133,6 +133,14 @@
 	display: none;
 }
 
+.help{
+	position: absolute;
+	padding: 4%;
+	color: #6d6d6d;
+	float: right;
+}
+
+
 #moodboardform form{
 	padding-top: 10%;
 }
