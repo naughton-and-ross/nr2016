@@ -219,7 +219,7 @@
 							</article>
 							<article class="two-six" style="background-image:url('{{url('/upload/')}}/{{$fourth_featured->id}}-cover.jpeg')">
 								<a class="expand" href="portfolio/{{$fourth_featured->project_slug}}/">
-									<span class="invert">
+									<span>
 										<h5>{{$fourth_featured->project_catagory}}</h5>
 										<p>{{$fourth_featured->project_name}}</p>
 									</span>
