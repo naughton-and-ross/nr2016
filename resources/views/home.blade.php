@@ -132,19 +132,19 @@
 			</section>
 
 			<section>
-				<article class="half rubix expand-wrap">
-					<a class="expand" href="portfolio/rubix/">
+				<article class="half expand-wrap" style="background-image:url('{{url('/upload/')}}/{{$first_featured->id}}-cover.jpeg')">
+					<a class="expand" href="portfolio/{{$first_featured->project_slug}}/">
 						<span>
-							<h5>Identity</h5>
-							<p>Cafe Rubix</p>
+							<h5>{{$first_featured->project_catagory}}</h5>
+							<p>{{$first_featured->project_name}}</p>
 						</span>
 					</a>
 				</article>
-				<article class="half pwps">
-					<a class="expand" href="portfolio/preston-west-primary/">
+				<article class="half" style="background-image:url('{{url('/upload/')}}/{{$first_featured->id}}-cover.jpeg')">
+					<a class="expand" href="portfolio/{{$second_featured->project_slug}}/">
 						<span>
-							<h5>Print Media</h5>
-							<p>Preston West Primary School</p>
+							<h5>{{$second_featured->project_catagory}}</h5>
+							<p>{{$second_featured->project_name}}</p>
 						</span>
 					</a>
 				</article>
@@ -198,12 +198,12 @@
 					</article>
 			</section>
 			<section>
-				<article class="vert-two-one grey" style="background-image:url('{{asset('img/phonemockcrops.png')}}')">
+				<article class="vert-two-one grey" style="background-image:url('{{url('/upload/')}}/{{$first_featured->id}}-cover.jpeg')">
 					<!--<img class="full-fit" src="{{asset('img/phonemockcrops.png')}}"/>-->
-					<a class="expand" href="portfolio/cc/">
+					<a class="expand" href="portfolio/{{$third_featured->project_slug}}/">
 						<span>
-							<h5>Identity</h5>
-							<p>Convenient Crops</p>
+							<h5>{{$third_featured->project_catagory}}</h5>
+							<p>{{$third_featured->project_name}}}</p>
 						</span>
 					</a>
 				</article>
@@ -217,21 +217,21 @@
 									</span>
 								</a>
 							</article>
-							<article class="two-six moto">
-								<a class="expand" href="portfolio/moto/">
+							<article class="two-six" style="background-image:url('{{url('/upload/')}}/{{$first_featured->id}}-cover.jpeg')">
+								<a class="expand" href="portfolio/{{$fourth_featured->project_slug}}/">
 									<span class="invert">
-										<h5>Logo Design</h5>
-										<p>Motorcycle Magic</p>
+										<h5>{{$fourth_featured->project_catagory}}</h5>
+										<p>{{$fourth_featured->project_name}}</p>
 									</span>
 								</a>
 							</article>
 						</section>
 						<section class="thirds">
-							<article class="two-six abl">
-								<a class="expand" href="portfolio/a-big-life/">
+							<article class="two-six" style="background-image:url('{{url('/upload/')}}/{{$first_featured->id}}-cover.jpeg')">
+								<a class="expand" href="portfolio/{{$fifth_featured->project_slug}}/">
 									<span>
-										<h5>Concepts</h5>
-										<p>A Big Life</p>
+										<h5>{{$fifth_featured->project_catagory}}</h5>
+										<p>{{$fifth_featured->project_name}}</p>
 									</span>
 								</a>
 							</article>

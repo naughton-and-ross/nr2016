@@ -12,9 +12,8 @@
 */
 
 // Application routes...
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', 'FrontendController@renderHome');
+
 Route::get('about', function () {
     return view('about');
 });
