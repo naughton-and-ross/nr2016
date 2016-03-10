@@ -35,7 +35,7 @@ Route::get('auth/logout', 'Auth\AuthController@getLogout');
 
 
 // Admin routes...
-Route::group(['middleware' => 'auth', 'prefix' => 'admin'], function() {
+Route::group(['middleware' => ['auth', 'csrf'], 'prefix' => 'admin'], function() {
     Route::get('/', 'AdminController@render');
     Route::resource('projects', 'ProjectsController');
 });
@@ -43,4 +43,5 @@ Route::group(['middleware' => 'auth', 'prefix' => 'admin'], function() {
 // API routes...
 Route::group(['middleware' => 'auth', 'prefix' => 'api'], function() {
     Route::get('/projects', 'ProjectsController@index');
+    Route::post('/change_featured', 'AdminController@changeFeatured');
 });

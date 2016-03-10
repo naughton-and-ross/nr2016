@@ -90,12 +90,18 @@
 						<tr>
 							<td><img src="{{asset('/img/grid/grid-1.svg')}}"/></td>
 							<td>
-								<form>
-									<select>
-										<option>Cafe Rubix</option>
-										<option>Convenient Crops</option>
-										<option>Motorcycle Magic</option>
-										<option>A Big Life</option>
+								<form method="post" action="/api/change_featured">
+									<input type="hidden" name="featured_pos" value="1" />
+									<select onchange="this.form.submit()" name="project_id">
+										@foreach ($projects as $project)
+										<option value="{{$project->id}}"
+											@if ($project->featured_pos == 1)
+											selected
+											@endif
+											>
+											{{$project->project_name}}
+										</option>
+					                    @endforeach
 									</select>
 								</form>
 							</td>
@@ -103,12 +109,18 @@
 						<tr>
 							<td><img src="{{asset('/img/grid/grid-2.svg')}}"/></td>
 							<td>
-								<form>
-									<select>
-										<option>Cafe Rubix</option>
-										<option>Convenient Crops</option>
-										<option>Motorcycle Magic</option>
-										<option>A Big Life</option>
+								<form method="post" action="/api/change_featured">
+									<input type="hidden" name="featured_pos" value="2" />
+									<select onchange="this.form.submit()" name="project_id">
+										@foreach ($projects as $project)
+										<option value="{{$project->id}}"
+											@if ($project->featured_pos == 2)
+											selected
+											@endif
+											>
+											{{$project->project_name}}
+										</option>
+					                    @endforeach
 									</select>
 								</form>
 							</td>
@@ -116,12 +128,18 @@
 						<tr class="portrait">
 							<td><img src="{{asset('/img/grid/grid-3.svg')}}"/></td>
 							<td>
-								<form>
-									<select>
-										<option>Cafe Rubix</option>
-										<option>Convenient Crops</option>
-										<option>Motorcycle Magic</option>
-										<option>A Big Life</option>
+								<form method="post" action="/api/change_featured">
+									<input type="hidden" name="featured_pos" value="3" />
+									<select onchange="this.form.submit()" name="project_id">
+										@foreach ($projects as $project)
+										<option value="{{$project->id}}"
+											@if ($project->featured_pos == 3)
+											selected
+											@endif
+											>
+											{{$project->project_name}}
+										</option>
+					                    @endforeach
 									</select>
 								</form>
 								<form>
@@ -134,12 +152,18 @@
 						<tr>
 							<td><img src="{{asset('/img/grid/grid-4.svg')}}"/></td>
 							<td>
-								<form>
-									<select>
-										<option>Cafe Rubix</option>
-										<option>Convenient Crops</option>
-										<option>Motorcycle Magic</option>
-										<option>A Big Life</option>
+								<form method="post" action="/api/change_featured">
+									<input type="hidden" name="featured_pos" value="4" />
+									<select onchange="this.form.submit()" name="project_id">
+										@foreach ($projects as $project)
+										<option value="{{$project->id}}"
+											@if ($project->featured_pos == 4)
+											selected
+											@endif
+											>
+											{{$project->project_name}}
+										</option>
+					                    @endforeach
 									</select>
 								</form>
 							</td>
@@ -147,12 +171,18 @@
 						<tr>
 							<td><img src="{{asset('/img/grid/grid-5.svg')}}"/></td>
 							<td>
-								<form>
-									<select>
-										<option>Cafe Rubix</option>
-										<option>Convenient Crops</option>
-										<option>Motorcycle Magic</option>
-										<option>A Big Life</option>
+								<form method="post" action="/api/change_featured">
+									<input type="hidden" name="featured_pos" value="5" />
+									<select onchange="this.form.submit()" name="project_id">
+										@foreach ($projects as $project)
+										<option value="{{$project->id}}"
+											@if ($project->featured_pos == 5)
+											selected
+											@endif
+											>
+											{{$project->project_name}}
+										</option>
+					                    @endforeach
 									</select>
 								</form>
 							</td>
