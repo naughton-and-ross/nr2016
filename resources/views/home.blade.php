@@ -140,7 +140,7 @@
 						</span>
 					</a>
 				</article>
-				<article class="half" style="background-image:url('{{url('/upload/')}}/{{$first_featured->id}}-cover.jpeg')">
+				<article class="half" style="background-image:url('{{url('/upload/')}}/{{$second_featured->id}}-cover.jpeg')">
 					<a class="expand" href="portfolio/{{$second_featured->project_slug}}/">
 						<span>
 							<h5>{{$second_featured->project_catagory}}</h5>
@@ -198,12 +198,12 @@
 					</article>
 			</section>
 			<section>
-				<article class="vert-two-one grey" style="background-image:url('{{url('/upload/')}}/{{$first_featured->id}}-cover.jpeg')">
+				<article class="vert-two-one grey" style="background-image:url('{{url('/upload/')}}/{{$third_featured->id}}-cover.jpeg')">
 					<!--<img class="full-fit" src="{{asset('img/phonemockcrops.png')}}"/>-->
 					<a class="expand" href="portfolio/{{$third_featured->project_slug}}/">
 						<span>
 							<h5>{{$third_featured->project_catagory}}</h5>
-							<p>{{$third_featured->project_name}}}</p>
+							<p>{{$third_featured->project_name}}</p>
 						</span>
 					</a>
 				</article>
@@ -217,7 +217,7 @@
 									</span>
 								</a>
 							</article>
-							<article class="two-six" style="background-image:url('{{url('/upload/')}}/{{$first_featured->id}}-cover.jpeg')">
+							<article class="two-six" style="background-image:url('{{url('/upload/')}}/{{$fourth_featured->id}}-cover.jpeg')">
 								<a class="expand" href="portfolio/{{$fourth_featured->project_slug}}/">
 									<span class="invert">
 										<h5>{{$fourth_featured->project_catagory}}</h5>
@@ -227,7 +227,7 @@
 							</article>
 						</section>
 						<section class="thirds">
-							<article class="two-six" style="background-image:url('{{url('/upload/')}}/{{$first_featured->id}}-cover.jpeg')">
+							<article class="two-six" style="background-image:url('{{url('/upload/')}}/{{$fifth_featured->id}}-cover.jpeg')">
 								<a class="expand" href="portfolio/{{$fifth_featured->project_slug}}/">
 									<span>
 										<h5>{{$fifth_featured->project_catagory}}</h5>
