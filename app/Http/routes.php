@@ -38,6 +38,8 @@ Route::get('auth/logout', 'Auth\AuthController@getLogout');
 Route::group(['middleware' => ['auth', 'csrf'], 'prefix' => 'admin'], function() {
     Route::get('/', 'AdminController@render');
     Route::resource('projects', 'ProjectsController');
+    Route::get('projects/{project_slug}/edit', 'ProjectsController@edit');
+    Route::post('projects/{project_slug}/edit', 'ProjectsController@update');
 });
 
 // API routes...

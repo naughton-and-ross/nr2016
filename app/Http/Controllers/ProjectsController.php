@@ -103,7 +103,11 @@ class ProjectsController extends Controller
      */
     public function edit($id)
     {
-        //
+        $project = Project::where('project_slug', $id)->first();
+
+        return view('admin.edit', [
+            'project' => $project,
+        ]);
     }
 
     /**
@@ -115,7 +119,9 @@ class ProjectsController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $project = Project::where('project_slug', $id)->first();
+        $project->update($request->input());
+        $project->save();
     }
 
     /**
