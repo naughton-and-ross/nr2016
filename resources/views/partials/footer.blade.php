@@ -5,7 +5,7 @@
 		<article>
 			<h4>
 				<div class="stroke"></div>
-				Studio
+				<b>Studio</b>
 				<br>
 				Naughton & Ross 2016
 			</h4>
@@ -13,7 +13,7 @@
 		<article>
 			<h4>
 				<div class="stroke"></div>
-				Email
+				<b>Email</b>
 				<br>
 				<a href="mailto:hello@n-r.co">hello@n-r.co</a>
 			</h4>
@@ -21,7 +21,7 @@
 		<article class="phone">
 			<h4>
 				<div class="stroke"></div>
-				Phone
+				<b>Phone</b>
 				<br>
 				<a href="tel:+61403515789">0403 515 789</a> or <a href="tel:+61430113345">0430 113 345</a>
 		</article>
