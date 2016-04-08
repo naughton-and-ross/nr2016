@@ -111,7 +111,7 @@
 								<div class="skillbar-bar green"></div>
 							</div> <!-- End Skill Bar -->
 
-							<div class="skillbar clearfix " data-percent="60%">
+							<div class="skillbar clearfix " data-percent="70%">
 								<div class="skillbar-title"><span>Illustrator</span></div>
 								<div class="skillbar-bar yellow"></div>
 							</div> <!-- End Skill Bar -->
