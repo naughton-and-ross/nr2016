@@ -26,17 +26,9 @@
 			</section>
 			<section>
 				<div class="half form-wrap">
-					<form>
-						<p>Full Name:</p>
-						<input type="text"/>
-						<p>Email:</p>
-						<input type="email"/>
-						<p>Contact Number</p>
-						<input type="tel"/>
-						<p>Message:</p>
-						<textarea></textarea>
-						<button>Submit</button>
-					</form>
+					<p>
+						To contact us please email hello@n-r.co or call us on 0403 515 789 or 0430 113 345
+					</p>
 				</div>
 				<div class="half" style="min-height: 250px;" id="map">
 				</div>
