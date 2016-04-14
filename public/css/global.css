@@ -111,6 +111,23 @@ section.thirds article:first-of-type{margin-right:20px;}
 	background-repeat: no-repeat;
 	background-image: url('../img/pinkpat.svg');
 }
+.client ul{
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	text-align: center;
+}
+
+.client ul li{
+		display: inline-block;
+	}
+
+	.client ul li img{
+		min-width: 45px;
+		max-width: 20%;
+		min-height: 45px;
+		max-height: 15%;
+	}
 @media (max-width:600px){
 .five{width:100%;margin:0 0 20px 0;}
 .vert-two-one,.vert-two-one-wrap{width:100%;}
