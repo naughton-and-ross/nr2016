@@ -153,11 +153,12 @@
 				<article class="fourfive">
 					<p>We specialise in Graphic Design & Web Design + Development. We love good design and building products and businesses in both print and digital formats.</p><br>
 					<a class="highlight" id="servmore">What we do</a>
+					<a class="highlight" id="clientmore">Who we've worked with</a>
 				</article>
 			</section>
 			<section class="serv" id="serv">
 					<article class="five">
-						<a href="portfolio">
+						<a href="portfolio/search.php">
 							<div class="inner">
 								<img src="{{asset('img/icon-b/webd2.svg')}}"/>
 									<h4>Web Design & Development</h4>
@@ -165,7 +166,7 @@
 						</a>
 					</article>
 					<article class="five">
-						<a href="portfolio/">
+						<a href="portfolio/search.php">
 							<div class="inner">
 								<img src="{{asset('img/icon-b/printn.svg')}}"/>
 									<h4>Print Design</h4>
@@ -173,7 +174,7 @@
 						</a>
 					</article>
 					<article class="five">
-						<a href="portfolio/">
+						<a href="portfolio/search.php">
 							<div class="inner">
 								<img src="{{asset('img/icon-b/photog.svg')}}"/>
 									<h4>Photography</h4>
@@ -181,7 +182,7 @@
 						</a>
 					</article>
 					<article class="five">
-						<a href="portfolio/">
+						<a href="portfolio/search.php">
 							<div class="inner">
 								<img src="{{asset('img/icon-b/gd.svg')}}"/>
 									<h4>Logo & Graphic Design</h4>
@@ -189,13 +190,29 @@
 						</a>
 					</article>
 					<article class="five">
-						<a href="portfolio/">
+						<a href="portfolio/search.php">
 							<div class="inner">
 								<img src="{{asset('img/icon-b/brand.svg')}}"/>
 									<h4>Brand Development</h4>
 							</div>
 						</a>
 					</article>
+			</section>
+			<section class="serv client" id="client">
+					<ul>
+						<li>
+							<img src="{{asset('img/client-icon/1.png')}}"/>
+						</li>
+						<li>
+							<img src="{{asset('img/client-icon/2.png')}}"/>
+						</li>
+						<li>
+							<img src="{{asset('img/client-icon/3.png')}}"/>
+						</li>
+						<li>
+							<img src="{{asset('img/client-icon/4.png')}}"/>
+						</li>
+					</ul>
 			</section>
 			<section>
 				<article class="vert-two-one grey" style="background-image:url('{{url('/upload/')}}/{{$third_featured->id}}-cover.jpeg')">
@@ -293,6 +310,9 @@
 				$(document).ready(function(){
 			        $('#servmore').on('click', function(event) {
 			             $('#serv').fadeToggle('show');
+			        });
+							$('#clientmore').on('click', function(event) {
+			             $('#client').fadeToggle('show');
 			        });
 			    })
 
