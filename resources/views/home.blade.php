@@ -212,6 +212,27 @@
 						<li>
 							<img src="{{asset('img/client-icon/4.png')}}"/>
 						</li>
+						<li>
+							<img src="{{asset('img/client-icon/5.png')}}"/>
+						</li>
+						<li>
+							<img src="{{asset('img/client-icon/6.png')}}"/>
+						</li>
+						<li>
+							<img src="{{asset('img/client-icon/7.png')}}"/>
+						</li>
+						<li>
+							<img src="{{asset('img/client-icon/8.png')}}"/>
+						</li>
+						<li>
+							<img src="{{asset('img/client-icon/9.png')}}"/>
+						</li>
+						<li>
+							<img src="{{asset('img/client-icon/10.png')}}"/>
+						</li>
+						<li>
+							<img src="{{asset('img/client-icon/11.png')}}"/>
+						</li>
 					</ul>
 			</section>
 			<section>
