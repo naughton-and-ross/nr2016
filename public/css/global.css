@@ -124,10 +124,9 @@ section.thirds article:first-of-type{margin-right:20px;}
 	}
 
 	.client ul li img{
-		min-width: 75px;
-		max-width: 20%;
-		min-height: 120px;
-		max-height: 20%;
+		min-width: 15%;
+		max-width: 35%;
+
 	}
 @media (max-width:600px){
 .five{width:100%;margin:0 0 20px 0;}
