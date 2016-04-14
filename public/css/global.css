@@ -123,9 +123,9 @@ section.thirds article:first-of-type{margin-right:20px;}
 	}
 
 	.client ul li img{
-		min-width: 45px;
+		min-width: 75px;
 		max-width: 20%;
-		min-height: 45px;
+		min-height: 75px;
 		max-height: 15%;
 	}
 @media (max-width:600px){
