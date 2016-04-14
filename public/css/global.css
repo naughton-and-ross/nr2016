@@ -116,6 +116,7 @@ section.thirds article:first-of-type{margin-right:20px;}
 	padding: 0;
 	display: inline-block;
 	text-align: center;
+	overflow: auto;
 }
 
 .client ul li{
