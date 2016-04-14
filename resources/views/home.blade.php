@@ -114,10 +114,10 @@
 					text-decoration: none;
 					padding-top: 4%;
 					cursor: pointer;
-					padding-left: 30px;
+					margin-left: 30px;
 				}
 				a.highlight:first-of-type{
-					padding-left: 0;
+					margin-left: 0;
 				}
 				a.highlight:hover{
 					border-bottom: 4px solid #33449c;
