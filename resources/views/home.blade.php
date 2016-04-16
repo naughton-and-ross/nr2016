@@ -205,7 +205,7 @@
 			<section class="serv client" id="client">
 					<ul>
 						<li>
-							<img src="{{asset('img/client-icon/1.png')}}"/>
+							<img src="{{asset('img/client-icon/1.png')}}" />
 						</li>
 						<li>
 							<img src="{{asset('img/client-icon/2.png')}}"/>

@@ -120,7 +120,7 @@ section.thirds article:first-of-type{margin-right:20px;}
 }
 
 .client ul li{
-		display: inline;
+		display: inline-block;
 		list-style-type: none;
 		overflow: auto;
 		width: 25%;
