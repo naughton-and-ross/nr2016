@@ -123,7 +123,7 @@ section.thirds article:first-of-type{margin-right:20px;}
 		display: inline-block;
 		list-style-type: none;
 		overflow: auto;
-		width: 25%;
+		width: 23%;
 	}
 
 	.client ul li img{
@@ -148,7 +148,7 @@ footer article.phone{
 	width: 100%;
 }
 	.client ul li{
-	max-width: 50%;
+	max-width: 48%;
 }
 h1{font-size:2.1em;line-height:1em;}
 footer article{width:100%;}
