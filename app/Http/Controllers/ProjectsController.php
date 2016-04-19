@@ -55,7 +55,7 @@ class ProjectsController extends Controller
         $project->project_info = $request->project_info;
         $project->project_slug = rtrim(preg_replace('/[^a-z0-9]+/i', '-', strtolower(strip_tags($request->project_name))), "-");
         if ($request->light_img == "on") {
-            $project->light_img = true;
+            $project->is_light_img = true;
         }
         if ($request->hasFile('cover_img')) {
             $cover_img = $request->file('cover_img');
