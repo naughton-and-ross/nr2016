@@ -138,7 +138,11 @@
 			<section>
 				<article class="half expand-wrap" style="background-image:url('{{url('/upload/')}}/{{$first_featured->id}}-cover.jpeg')">
 					<a class="expand" href="portfolio/{{$first_featured->project_slug}}/">
-						<span>
+						<span
+						@if ($first_featured->is_light_img)
+						class="invert"
+						@endif
+						>
 							<h5>{{$first_featured->project_catagory}}</h5>
 							<p>{{$first_featured->project_name}}</p>
 						</span>
@@ -146,7 +150,11 @@
 				</article>
 				<article class="half" style="background-image:url('{{url('/upload/')}}/{{$second_featured->id}}-cover.jpeg')">
 					<a class="expand" href="portfolio/{{$second_featured->project_slug}}/">
-						<span>
+						<span
+						@if ($second_featured->is_light_img)
+						class="invert"
+						@endif
+						>
 							<h5>{{$second_featured->project_catagory}}</h5>
 							<p>{{$second_featured->project_name}}</p>
 						</span>
@@ -243,7 +251,11 @@
 				<article class="vert-two-one grey" style="background-image:url('{{url('/upload/')}}/{{$third_featured->id}}-cover.jpeg')">
 					<!--<img class="full-fit" src="{{asset('img/phonemockcrops.png')}}"/>-->
 					<a class="expand" href="portfolio/{{$third_featured->project_slug}}/">
-						<span>
+						<span
+						@if ($third_featured->is_light_img)
+						class="invert"
+						@endif
+						>
 							<h5>{{$third_featured->project_catagory}}</h5>
 							<p>{{$third_featured->project_name}}</p>
 						</span>
@@ -261,7 +273,11 @@
 							</article>
 							<article class="two-six" style="background-image:url('{{url('/upload/')}}/{{$fourth_featured->id}}-cover.jpeg')">
 								<a class="expand" href="portfolio/{{$fourth_featured->project_slug}}/">
-									<span>
+									<span
+									@if ($fourth_featured->is_light_img)
+									class="invert"
+									@endif
+									>
 										<h5>{{$fourth_featured->project_catagory}}</h5>
 										<p>{{$fourth_featured->project_name}}</p>
 									</span>
@@ -271,7 +287,11 @@
 						<section class="thirds">
 							<article class="two-six" style="background-image:url('{{url('/upload/')}}/{{$fifth_featured->id}}-cover.jpeg')">
 								<a class="expand" href="portfolio/{{$fifth_featured->project_slug}}/">
-									<span>
+									<span
+									@if ($fifth_featured->is_light_img)
+									class="invert"
+									@endif
+									>
 										<h5>{{$fifth_featured->project_catagory}}</h5>
 										<p>{{$fifth_featured->project_name}}</p>
 									</span>
