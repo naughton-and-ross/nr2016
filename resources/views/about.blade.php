@@ -70,14 +70,14 @@
 							</div> <!-- End Skill Bar -->
 						</div>
 						<div class="info">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
 						</div>
 							<div class="social">
-								<i class="fa fa-instagram"></i>
-								<i class="fa fa-twitter"></i>
-								<i class="fa fa-globe"></i>
-								<i class="fa fa-envelope-o"></i>
-								<i class="fa fa-phone"></i>
+								<a href="http://twitter.com/willpsng/"><i class="fa fa-twitter"></i></a>
+								<a href="http://instagram.com/wngravette/"><i class="fa fa-instagram"></i></a>
+								<a href="htttp://willng.me" target="_blank"><i class="fa fa-globe"></i></a>
+								<a href="mailto:william@n-r.co"><i class="fa fa-envelope-o"></i></a>
+								<a href="tel:+61430113345"><i class="fa fa-phone"></i></a>
 							</div>
 				</div>
 				<div class="half">
