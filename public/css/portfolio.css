@@ -51,6 +51,10 @@ img.full{
 	color:#33449c;
 	font-weight: 500;
 	margin-bottom: 1em;
+	-moz-column-count: 1;
+	-webkit-column-count: 1;
+	width: 100%;
+
 }
 
 .title{
