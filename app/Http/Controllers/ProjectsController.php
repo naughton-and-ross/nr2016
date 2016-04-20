@@ -132,6 +132,9 @@ class ProjectsController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $project = Project::where('project_slug', $id)->first();
+        $project->delete();
+
+        return redirect('/admin');
     }
 }

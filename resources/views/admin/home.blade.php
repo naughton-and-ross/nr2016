@@ -30,7 +30,11 @@
 				<h4>Projects</h4>
 				<ul>
                     @foreach ($projects as $project)
-					<li><a href="{{url('admin/projects')}}/{{$project->project_slug}}/edit">{{$project->project_name}}</a></li>
+					<li><a href="{{url('admin/projects')}}/{{$project->project_slug}}/edit">{{$project->project_name}}</a>
+						<span style="float: right;">
+						<a href="{{url('admin/projects')}}/{{$project->project_slug}}/delete">X</a>
+						</span>
+					</li>
                     @endforeach
 				</ul>
 				<h4>Quick Links</h4>

@@ -40,6 +40,7 @@ Route::group(['middleware' => ['auth', 'csrf'], 'prefix' => 'admin'], function()
     Route::resource('projects', 'ProjectsController');
     Route::get('projects/{project_slug}/edit', 'ProjectsController@edit');
     Route::post('projects/{project_slug}/edit', 'ProjectsController@update');
+    Route::get('projects/{project_slug}/delete', 'ProjectsController@destroy');
 });
 
 // API routes...
