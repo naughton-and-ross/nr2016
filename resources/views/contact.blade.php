@@ -27,7 +27,7 @@
 			<section>
 				<div class="half form-wrap">
 					<p>
-						To contact us please email <a href="mailto:hello@n-r.co">hello@n-r.co</a> or call us on <a href="tel:+61403515789">0403 515 789</a> or <a href="tel:+61430113345">0430 113 345</a>.
+						To contact us please email <a class="contact-link" href="mailto:hello@n-r.co">hello@n-r.co</a> or call us on <a class="contact-link" href="tel:+61403515789">0403 515 789</a> or <a class="contact-link" href="tel:+61430113345">0430 113 345</a>.
 					</p>
 				</div>
 				<div class="half" style="min-height: 250px;" id="map">
