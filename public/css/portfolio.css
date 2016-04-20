@@ -48,9 +48,8 @@ img.full{
 
 .project-info p.project_desc {
 	font-size: 150%;
-	-webkit-column-count:1;
-	-moz-column-count: 1;
-	width: 75%;
+	color:#33449c;
+	font-weight: 500;
 	margin-bottom: 1em;
 }
 
