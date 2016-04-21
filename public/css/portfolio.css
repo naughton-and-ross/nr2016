@@ -49,11 +49,12 @@ img.full{
 .project-info p.project_desc {
 	font-size: 150%;
 	color:#33449c;
-	font-weight: 500;
+	font-weight: 700;
 	margin-bottom: 1em;
 	-moz-column-count: 1;
 	-webkit-column-count: 1;
-	width: 100%;
+	width: 90%;
+	margin-left: 10%;
 }
 
 
