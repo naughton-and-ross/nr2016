@@ -53,8 +53,7 @@ img.full{
 	margin-bottom: 1em;
 	-moz-column-count: 1;
 	-webkit-column-count: 1;
-	width: 90%;
-	margin-left: 10%;
+	width: 100%;
 }
 
 
