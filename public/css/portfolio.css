@@ -54,8 +54,10 @@ img.full{
 	-moz-column-count: 1;
 	-webkit-column-count: 1;
 	width: 100%;
-
 }
+
+.project-info p.project_desc:first-child:first-letter { float: left;  font-size: 200%; padding-top: 4px; padding-right: 8px; padding-left: 3px; font-family:"kepler-std-display",sans-serif; }
+
 
 .title{
 	text-align: center;
