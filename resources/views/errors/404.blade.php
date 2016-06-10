@@ -3,7 +3,7 @@
 	<head>
 		<script src="https://use.typekit.net/fob6vhu.js"></script>
 		<script>try{Typekit.load({ async: true });}catch(e){}</script>
-			<title>V3</title>
+			<title>Whoops! 404</title>
             <link rel="stylesheet" href="{{asset('/css/global.css')}}"/>
 			<link rel="stylesheet" href="{{asset('/css/home.css')}}"/>
 			<link rel="stylesheet" href="{{asset('/css/grid.css')}}"/>
